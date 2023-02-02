@@ -1,6 +1,6 @@
 #Deduction
-#Graphical session:
-#TODO:
-#ssh
-#Connect like normal with ssh, just change the username and password when requested
-ssh newusername@localhost -p 2222
+Graphical session (LXDE):
+	Turn on the vm, wait for a login screen, type in your username and password.
+ssh:
+	Connect like normal with ssh, just change the username and type in your password when requested
+	"ssh newusername@localhost -p 2222"

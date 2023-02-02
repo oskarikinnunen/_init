@@ -1,2 +1,2 @@
-#Command
+#CommandNORUN
 kill -9 PID #You can figure out the pid of the tail process with top or ps aux | grep "sudo tail"

@@ -1,7 +1,4 @@
 #Deduction
-
 /etc/issue
-
-#or 
-
+#or
 /etc/os-release

@@ -1,2 +1,2 @@
-#Command
+#CommandNORUN
 hostnamectl set-hostname username
