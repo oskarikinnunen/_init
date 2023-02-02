@@ -1,0 +1,2 @@
+#Command
+ps aux | grep "sshd" | grep -v "grep" | awk '{print $2}'

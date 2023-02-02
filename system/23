@@ -1,0 +1,6 @@
+#Deduction
+#Graphical session:
+#TODO:
+#ssh
+#Connect like normal with ssh, just change the username and password when requested
+ssh newusername@localhost -p 2222

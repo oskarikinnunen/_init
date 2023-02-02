@@ -1,0 +1,10 @@
+#sudo apt update
+#sudo apt install openssh-server -Y
+#sudo systemctl start ssh
+
+NW_FOLDER="network/"
+
+for f in $NW_FOLDER
+do
+	cat $f
+done

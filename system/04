@@ -1,0 +1,3 @@
+#Command
+uptime -p
+# -p = pretty
