@@ -1,2 +1,2 @@
-#Command
+#CommandNORUN
 sudo tail -f /var/log/syslog &
