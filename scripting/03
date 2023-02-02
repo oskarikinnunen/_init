@@ -103,9 +103,9 @@ elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
 	foldername=$(basename $pwd)
 	echo "running from folder $pwd";
 	if [[ "$pwd" == *"init"* ]]; then
-		fold="network/*"
+		fold="system/*"
 	elif [[ "$pwd" == *"scripting"* ]]; then
-		fold="../network/*"
+		fold="../system/*"
 	fi
 	for f in $fold
 	do
