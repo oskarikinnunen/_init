@@ -1,0 +1,2 @@
+#Command
+sudo pkill -9 -u username && sudo deluser username

@@ -1,0 +1,2 @@
+#Command
+dig @8.8.8.8 who.int

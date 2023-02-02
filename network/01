@@ -1,0 +1,2 @@
+#Command
+ifconfig | grep -E "^[[:alnum:]]+:" | cut -d':' -f1

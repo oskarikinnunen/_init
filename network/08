@@ -1,0 +1,13 @@
+#Deduction
+# Cloudflare is the provider, you could use who.is and type in the address (who.int)
+# OR
+# use this command:
+echo "Like this:"
+echo "curl ipinfo.io/104.17.113.188"
+curl ipinfo.io/104.17.113.188
+# or
+sleep 5
+echo "Or like this:"
+echo "curl ipinfo.io/104.17.113.188/org"
+curl ipinfo.io/104.17.113.188/org
+sleep 5

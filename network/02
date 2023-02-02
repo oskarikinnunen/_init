@@ -1,0 +1,6 @@
+#Command
+echo -e "\nA)"
+ifconfig | grep 'en0:' -A4 | grep 'inet ' | grep 'broadcast' | awk '{print $6}'
+sleep 2
+echo -e "B)"
+arp -na | grep -E 'en[0-1]' | grep -E '\(10.12' | cut -f2 -d'(' | cut -f1 -d ')' #| tr '\n' "\t"

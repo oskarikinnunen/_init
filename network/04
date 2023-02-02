@@ -1,0 +1,2 @@
+#Command
+route -n get default | grep 'gateway:'

@@ -1,0 +1,2 @@
+#Command
+nslookup who.int | grep "Non-authoritative answer:" -A 3 | cut -f2 -d'-'

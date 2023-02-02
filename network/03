@@ -1,0 +1,2 @@
+#Command
+ifconfig | grep "en1:" -A 1 | grep -E 'ether' | cut -f2 -d' '
